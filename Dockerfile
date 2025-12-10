@@ -1,8 +1,6 @@
 FROM node:18
 
-WORKDIR /app
-
-COPY app/package*.json ./
+COPY package*.json ./
 
 RUN npm i
 
